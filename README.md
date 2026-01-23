@@ -1,85 +1,69 @@
-## **README.md Principal del Repositorio**
+# Optimizadores Windows
 
-```markdown
-# 🚀 Windows Optimizers Toolkit
+Este repositorio contiene tres potentes optimizadores para Windows diseñados para diferentes propósitos:
 
-Colección de optimizadores para Windows diseñados para diferentes necesidades: mantenimiento general, optimización gaming y versiones seguras estabilizadas.
+## 📦 Optimizadores Incluidos
 
-## 📦 Contenido
+### 1. **SMS_Gaming_Optimizer_v4.1**
+- **Versión:** Estable
+- **Enfoque:** Optimización general del sistema
+- **Características:** Limpieza, reparación y optimización básica
+- **Ideal para:** Mantenimiento regular del sistema
 
-### 1. 🛠️ **Optimizador Windows General** (`/Optimizador_Windows_General/`)
-- **Propósito**: Mantenimiento general y optimización básica
-- **Público**: Todos los usuarios de Windows
-- **Características**: Limpieza, reparación, estado del sistema
-- **Complejidad**: ⭐☆☆☆☆ (Básico)
+### 2. **SMS_Gaming_Optimizer_v4.1_Gaming**
+- **Versión:** Gaming
+- **Enfoque:** Máximo rendimiento para juegos
+- **Características:** Optimizaciones específicas para gaming, reducción de latencia
+- **Ideal para:** Jugadores y entusiastas del gaming
 
-### 2. 🎮 **SMS Gaming Optimizer v4.1** (`/SMS_Gaming_Optimizer/`)
-- **Propósito**: Máximo rendimiento para juegos
-- **Público**: Gamers, streamers, competidores
-- **Características**: Modos gaming, optimización por componentes
-- **Complejidad**: ⭐⭐⭐☆☆ (Intermedio-Avanzado)
-
-### 3. 🛡️ **Optimizador Windows Seguro** (`/Optimizador_Windows_Seguro/`)
-- **Propósito**: Optimización segura y verificada
-- **Público**: Usuarios que priorizan estabilidad
-- **Características**: Backups, verificaciones, logs detallados
-- **Complejidad**: ⭐⭐☆☆☆ (Intermedio)
-
-## 📊 Tabla Comparativa
-
-| Característica | General | Gaming | Seguro |
-|----------------|---------|--------|---------|
-| **Limpieza Temp** | ✅ | ✅ | ✅ |
-| **Optimización RAM** | ✅ | ✅ | ✅ |
-| **Servicios** | Básica | Avanzada | Verificada |
-| **Reparación Sistema** | SFC/DISM | - | SFC/DISM/CHKDSK |
-| **Puntos Restauración** | ✅ | - | ✅ Mejorado |
-| **Backups Auto** | Básico | Gaming | Completo |
-| **Logs Detallados** | ✅ | ✅ | ✅✅ |
-| **Modos Especiales** | - | 4 modos | - |
-| **Diagnóstico** | Sistema | Gaming | Sistema |
-| **Restauración** | Parcial | Completa | Parcial |
-
-## 🚀 Cómo Usar
-
-1. **Descarga** el repositorio
-2. **Navega** a la carpeta del optimizador deseado
-3. **Ejecuta como Administrador** el archivo .bat
-4. **Sigue** las instrucciones en pantalla
+### 3. **Optimizador_Windows_Seguro**
+- **Versión:** Segura
+- **Enfoque:** Estabilidad y seguridad
+- **Características:** Optimizaciones probadas y seguras
+- **Ideal para:** Usuarios que priorizan estabilidad
 
 ## ⚠️ Advertencias Importantes
 
-- **Siempre ejecutar como Administrador**
-- **Crear puntos de restauración manualmente si el sistema lo permite**
-- **Leer las instrucciones de cada optimizador**
-- **No usar múltiples optimizadores simultáneamente**
+1. **Siempre ejecuta como Administrador**
+2. **Crea puntos de restauración antes de usar**
+3. **Respeta las versiones (no mezcles optimizadores)**
+4. **Lee las instrucciones de cada optimizador**
 
-## 🔧 Requisitos del Sistema
+## 📁 Estructura del Repositorio
 
-- **Sistema Operativo**: Windows 7/8/10/11 (64-bit recomendado)
-- **Permisos**: Administrador obligatorio
-- **Espacio**: 100MB mínimo libre
-- **.NET Framework**: 4.5+ (algunas funciones)
+Cada optimizador tiene su propia carpeta con:
+- Archivo `.bat` ejecutable
+- `README.md` con información específica
+- `INSTALACION.md` con instrucciones detalladas
 
-## 📝 Licencia
+## 🔧 Requisitos
 
-Este proyecto está bajo licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
+- Windows 10/11 (64-bit recomendado)
+- Permisos de administrador
+- Antivirus desactivado temporalmente (puede detectar falsos positivos)
 
-## 🤝 Contribuciones
+## **4. Consideraciones Finales**
 
-Las contribuciones son bienvenidas. Por favor, lee [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar cambios.
+### Diferencias Clave entre Versiones:
+1. **v4.1 Estable**: Enfoque general, seguro para todos
+2. **v4.1 Gaming**: Específico para jugadores, más agresivo
+3. **Windows Seguro**: Máxima estabilidad, cambios conservadores
 
-## 📞 Soporte y Problemas
+### Recomendaciones:
+- **Nuevos usuarios**: Comenzar con "Windows Seguro"
+- **Jugadores**: Usar "Gaming" versión
+- **Mantenimiento regular**: "Estable" versión
+- **Sistemas críticos**: Solo "Windows Seguro"
 
-Reporta issues en la sección de problemas del repositorio.
+### Notas Importantes:
+- Siempre ejecutar como administrador
+- Crear puntos de restauración antes
+- Leer las instrucciones específicas de cada versión
+- No mezclar optimizadores
+- Mantener backups regulares
 
-## 📊 Estadísticas
+Este repositorio está listo para ser subido a GitHub o cualquier otra plataforma de control de versiones. Cada optimizador tiene su documentación completa y está organizado para facilitar el mantenimiento y las actualizaciones futuras.
 
-- **Total Optimizadores**: 3
-- **Líneas de código total**: ~2,500
-- **Funciones únicas**: 45+
-- **Sistemas soportados**: Windows 7/8/10/11
+## 📄 Licencia
 
----
-
-**Nota**: Estos scripts son herramientas de mantenimiento. Siempre respalda tu información importante antes de usar cualquier optimizador.
+MIT License - Ver [LICENSE](LICENSE) para más detalles.
