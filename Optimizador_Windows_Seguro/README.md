@@ -1,8 +1,31 @@
-## **5. Carpeta: Optimizador_Windows_Seguro**
+<h1 align="center">
+  Optimizador Windows Seguro
+  <img src="https://media.giphy.com/media/3o7TKSha51ATTx9KzC/giphy.gif" width="50">
+</h1>
 
-# Optimizador Windows Seguro
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=600&size=30&duration=4000&pause=1000&color=FF9800&center=true&vCenter=true&width=800&height=80&lines=Estabilidad+Garantizada;Seguridad+Primero;Cambios+Reversibles;Optimización+Segura" alt="Typing SVG" />
+</p>
+
+<br>
+
+<p align="center">
+  <a>
+    <img src="https://img.shields.io/badge/Version-Segura-FF9800?style=for-the-badge&logo=windows&logoColor=white" alt="Version">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Windows-10|11-FF9800?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Enfoque-Estabilidad-FF9800?style=for-the-badge&logo=shield-check&logoColor=white" alt="Estabilidad">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Cambios-Reversibles-FF9800?style=for-the-badge&logo=history&logoColor=white" alt="Reversible">
+  </a>
+</p>
 
 ## 🛡️ Descripción
+
 Versión estabilizada y segura del optimizador, enfocada en mantenimiento sin riesgos. Ideal para usuarios que priorizan estabilidad sobre rendimiento extremo.
 
 ## ✅ Filosofía de Diseño
@@ -70,4 +93,3 @@ Versión estabilizada y segura del optimizador, enfocada en mantenimiento sin ri
 - Códigos de error descriptivos
 - Instrucciones de recuperación incluidas
 - Compatible con soporte técnico estándar
-```

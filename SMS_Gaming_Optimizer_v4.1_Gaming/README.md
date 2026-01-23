@@ -1,6 +1,32 @@
-# SMS Gaming Optimizer v4.1 - Versión Gaming
+<h1 align="center">
+  SMS Gaming Optimizer v4.1 - Versión Gaming
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="50">
+</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=600&size=30&duration=4000&pause=1000&color=2196F3&center=true&vCenter=true&width=800&height=80&lines=Máximo+Rendimiento+para+Gaming;Reducción+de+Latencia;Optimización+por+Componentes;Modo+Competitivo+eSports" alt="Typing SVG" />
+</p>
+
+
+<br>
+
+<p align="center">
+  <a>
+    <img src="https://img.shields.io/badge/Version-4.1_Gaming-2196F3?style=for-the-badge&logo=windows&logoColor=white" alt="Version">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Windows-10|11-2196F3?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Modo-eSports-FF5722?style=for-the-badge&logo=trophy&logoColor=white" alt="eSports">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/FPS+Mejora-15–25%25-2196F3?style=for-the-badge&logo=graph&logoColor=white" alt="FPS">
+  </a>
+</p>
 
 ## 🎮 Descripción
+
 Optimizador especializado para máximo rendimiento en juegos. Incluye modos específicos para diferentes tipos de gaming y ajustes avanzados por componente.
 
 ## 🚀 Características Gaming
