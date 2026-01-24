@@ -118,6 +118,21 @@ Cada optimizador tiene su propia carpeta con:
    ```bash
    git clone https://github.com/SerakDepMS/Optimizadores_Windows
 
+## 📁 Logs y Backups
+
+Para información detallada sobre dónde se guardan los logs y backups de cada optimizador, consulta el archivo [LOGS_Y_BACKUPS.md](LOGS_Y_BACKUPS.md).
+
+### Acceso Rápido:
+- **Optimizador Estable**: `Desktop\Backup_Optimizador\`
+- **Optimizador Gaming**: `Documents\SMS_Gaming_Backups\` y `%TEMP%\SMS_Gaming_Logs\`
+- **Optimizador Seguro**: `Desktop\Backup_Optimizador_YYYYMMDD\`
+
+### Importancia:
+- Guardan historial de cambios
+- Permiten restaurar configuraciones
+- Son esenciales para solución de problemas
+- No contienen información personal sensible
+```
 
 ## 📄 Licencia
 
