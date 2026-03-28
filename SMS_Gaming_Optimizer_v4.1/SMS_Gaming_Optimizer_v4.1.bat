@@ -1,11 +1,11 @@
 @echo off
 chcp 65001 >nul
-title OPTIMIZADOR SISTEMA WINDOWS - Versión Estable
+title OPTIMIZADOR SISTEMA WINDOWS - VersiÃ³n Estable
 color 0A
 setlocal enabledelayedexpansion
 
 :: ==============================================
-:: VERIFICACIÓN DE ADMINISTRADOR (CORREGIDA)
+:: VERIFICACIÃ“N DE ADMINISTRADOR 
 :: ==============================================
 :check_admin
 fltmc >nul 2>&1
@@ -31,7 +31,7 @@ if %errorlevel% neq 0 (
 )
 
 :: ==============================================
-:: CONFIGURACIÓN INICIAL SEGURA
+:: CONFIGURACIÃ“N INICIAL SEGURA
 :: ==============================================
 set "backup_folder=%USERPROFILE%\Desktop\Backup_Optimizador"
 if not exist "%backup_folder%" mkdir "%backup_folder%"
@@ -42,7 +42,7 @@ echo LOG DE OPTIMIZACION - %date% %time%        >> "%log_file%"
 echo ============================================ >> "%log_file%"
 
 :: ==============================================
-:: MENÚ PRINCIPAL (VERSIÓN ESTABLE)
+:: MENÃš PRINCIPAL 
 :: ==============================================
 :main_menu
 cls
@@ -80,7 +80,7 @@ timeout /t 2 /nobreak >nul
 goto main_menu
 
 :: ==============================================
-:: 1. OPTIMIZACIÓN RÁPIDA
+:: 1. OPTIMIZACIÃ“N RÃPIDA
 :: ==============================================
 :optimizacion_rapida
 cls
@@ -134,22 +134,22 @@ echo       LIBERANDO MEMORIA RAM
 echo ============================================
 echo.
 echo Estado actual de memoria:
-systeminfo | findstr /C:"Memoria física disponible"
+systeminfo | findstr /C:"Memoria fÃ­sica disponible"
 echo.
 echo Liberando memoria...
 echo.
 
-:: Método 1: Limpiar cachés
-echo [1/3] Limpiando cachés del sistema...
+:: MÃ©todo 1: Limpiar cachÃ©s
+echo [1/3] Limpiando cachÃ©s del sistema...
 ipconfig /flushdns >nul 2>&1
-echo ? Caché DNS limpiado
+echo ? CachÃ© DNS limpiado
 
-:: Método 2: Vaciar working sets
+:: MÃ©todo 2: Vaciar working sets
 echo [2/3] Optimizando memoria de procesos...
 powershell -Command " $sig = '[DllImport(\"kernel32.dll\")] public static extern bool SetProcessWorkingSetSize(IntPtr proc, int min, int max);'; $type = Add-Type -MemberDefinition $sig -Name NativeMethods -Namespace Kernel32 -PassThru; $processes = Get-Process; foreach($process in $processes) { try { $type::SetProcessWorkingSetSize($process.Handle, -1, -1) | Out-Null } catch {} }" >nul 2>&1
 echo ? Procesos optimizados
 
-:: Método 3: Limpiar RAM standby
+:: MÃ©todo 3: Limpiar RAM standby
 echo [3/3] Limpiando RAM en espera...
 powershell -Command "Clear-RecycleBin -Force" >nul 2>&1
 echo ? Papelera de reciclaje vaciada
@@ -157,7 +157,7 @@ echo ? Papelera de reciclaje vaciada
 echo.
 echo Memoria liberada exitosamente.
 echo Estado nuevo:
-systeminfo | findstr /C:"Memoria física disponible"
+systeminfo | findstr /C:"Memoria fÃ­sica disponible"
 echo.
 echo Resultado guardado en log.
 echo.
@@ -176,11 +176,11 @@ echo ============================================
 echo.
 echo Esta operacion eliminara:
 echo - Archivos temporales del sistema
-echo - Caché de aplicaciones
+echo - CachÃ© de aplicaciones
 echo - Logs antiguos
 echo - Archivos de instalacion temporal
 echo.
-set /p confirm="¿Desea continuar? (S/N): "
+set /p confirm="Â¿Desea continuar? (S/N): "
 if /i not "%confirm%"=="S" goto main_menu
 
 echo.
@@ -232,7 +232,7 @@ echo 2. dmwappushservice - Notificaciones push
 echo 3. SysMain (Superfetch)
 echo 4. WSearch - Busqueda de Windows
 echo.
-set /p confirm="¿Continuar? (S/N): "
+set /p confirm="Â¿Continuar? (S/N): "
 if /i not "%confirm%"=="S" goto main_menu
 
 echo.
@@ -280,7 +280,7 @@ echo ============================================
 echo     REPARACION DE ARCHIVOS DEL SISTEMA
 echo ============================================
 echo.
-echo Esta herramienta reparara archivos dañados
+echo Esta herramienta reparara archivos daÃ±ados
 echo de Windows usando herramientas oficiales.
 echo.
 echo HERRAMIENTAS A USAR:
@@ -288,7 +288,7 @@ echo 1. SFC (System File Checker)
 echo 2. DISM (Deployment Image Service)
 echo 3. CHKDSK (Verificacion de disco)
 echo.
-set /p confirm="¿Continuar? (S/N): "
+set /p confirm="Â¿Continuar? (S/N): "
 if /i not "%confirm%"=="S" goto main_menu
 
 echo.
@@ -333,7 +333,7 @@ echo [INFORMACION DEL PROCESADOR]
 wmic cpu get name
 echo.
 echo [MEMORIA RAM]
-systeminfo | findstr /C:"Memoria física total" /C:"Memoria física disponible"
+systeminfo | findstr /C:"Memoria fÃ­sica total" /C:"Memoria fÃ­sica disponible"
 echo.
 echo [ALMACENAMIENTO]
 wmic logicaldisk where "DeviceID='C:'" get Size,FreeSpace /value | findstr "FreeSpace Size"
@@ -356,7 +356,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 7. CREAR PUNTO DE RESTAURACIÓN
+:: 7. CREAR PUNTO DE RESTAURACIÃ“N
 :: ==============================================
 :punto_restauracion
 cls
@@ -382,7 +382,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 8. RESTAURAR CONFIGURACIÓN
+:: 8. RESTAURAR CONFIGURACIÃ“N
 :: ==============================================
 :restaurar_config
 cls
@@ -495,7 +495,7 @@ echo 1. Reinicie su PC para cambios completos
 echo 2. Ejecute el optimizador mensualmente
 echo 3. Mantenga Windows actualizado
 echo.
-echo ¡Hasta pronto!
+echo Â¡Hasta pronto!
 echo.
 timeout /t 3 /nobreak >nul
 exit
