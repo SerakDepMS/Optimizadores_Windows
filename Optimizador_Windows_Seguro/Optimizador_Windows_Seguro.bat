@@ -5,7 +5,7 @@ color 0A
 setlocal enabledelayedexpansion
 
 :: ==============================================
-:: VERIFICACIÓN DE ADMINISTRADOR (CORREGIDA)
+:: VERIFICACIÓN DE ADMINISTRADOR
 :: ==============================================
 :inicio
 fltmc >nul 2>&1
@@ -43,7 +43,7 @@ echo LOG DE OPTIMIZACION - %date% %time%        >> "%log_file%"
 echo ============================================ >> "%log_file%"
 
 :: ==============================================
-:: MENÚ PRINCIPAL (VERSIÓN ESTABLE CORREGIDA)
+:: MENÚ PRINCIPAL
 :: ==============================================
 :main_menu
 cls
@@ -82,7 +82,7 @@ timeout /t 2 /nobreak >nul
 goto main_menu
 
 :: ==============================================
-:: 1. OPTIMIZACIÓN RÁPIDA (CORREGIDA Y MEJORADA)
+:: 1. OPTIMIZACIÓN RÁPIDA 
 :: ==============================================
 :optimizacion_rapida
 cls
@@ -130,7 +130,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 2. LIBERAR MEMORIA RAM (MEJORADO)
+:: 2. LIBERAR MEMORIA RAM 
 :: ==============================================
 :liberar_ram
 cls
@@ -175,7 +175,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 3. LIMPIAR ARCHIVOS TEMPORALES (CORREGIDO)
+:: 3. LIMPIAR ARCHIVOS TEMPORALES 
 :: ==============================================
 :limpiar_temporales
 cls
@@ -231,7 +231,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 4. OPTIMIZAR SERVICIOS WINDOWS (MEJORADO)
+:: 4. OPTIMIZAR SERVICIOS WINDOWS
 :: ==============================================
 :optimizar_servicios
 cls
@@ -312,7 +312,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 5. REPARAR ARCHIVOS DE SISTEMA (CORREGIDO)
+:: 5. REPARAR ARCHIVOS DE SISTEMA 
 :: ==============================================
 :reparar_sistema
 cls
@@ -382,7 +382,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 6. VER ESTADO DEL SISTEMA (MEJORADO)
+:: 6. VER ESTADO DEL SISTEMA 
 :: ==============================================
 :estado_sistema
 cls
@@ -456,7 +456,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 7. CREAR PUNTO DE RESTAURACIÓN (MEJORADO)
+:: 7. CREAR PUNTO DE RESTAURACIÓN 
 :: ==============================================
 :punto_restauracion
 cls
@@ -496,7 +496,7 @@ pause
 goto main_menu
 
 :: ==============================================
-:: 8. RESTAURAR CONFIGURACIÓN (MEJORADO)
+:: 8. RESTAURAR CONFIGURACIÓN 
 :: ==============================================
 :restaurar_config
 cls
@@ -611,7 +611,7 @@ echo ✓ Sistema reparado
 goto :eof
 
 :: ==============================================
-:: 9. SALIR (MEJORADO)
+:: 9. SALIR 
 :: ==============================================
 :salir
 cls
